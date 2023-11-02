@@ -105,7 +105,6 @@ main .container {
     background-color: white;
     padding: 10px;
     position: absolute; right: 0; top: 0;
-
 }
 
 .container-tag {
@@ -164,13 +163,11 @@ footer {
 }
 .other-site h6 {
     text-align: center;
-
 }
 
 
 .other-site a {
     padding: 3px;
-    
 }
 
 .site {
