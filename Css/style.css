@@ -24,11 +24,29 @@ a {
     color: white;
 }
 
+.a-black {
+    color: black;
+}
+
 .link-logo{
     height: 30px;
     position: relative;
     right: 0;
     left: 0;
+}
+
+.product img {
+    width: 100%;
+}
+
+.price {
+    color: red;
+    font-weight: 800;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-weight: 700;
 }
 /* HEADER */
 
@@ -65,4 +83,95 @@ header .container section {
 
 /* MAIN */
 
+main .container {
+    width: 80%;
+    min-height: 80em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 30px;
+}
+
+.container-product {
+    width: calc((100% / 3) - 40px);
+    height: 439px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.favorite {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    position: absolute; right: 0; top: 0;
+
+}
+
+.tag {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 9px;
+    padding: 3px 12px;
+}
+
+.discount {
+    background-color: red;
+    position: absolute; bottom: 20px; left: 0;
+}
+
+.bio {
+    background-color: green;
+    position: absolute; bottom: 20px; left: 50px;
+}
+
+.price, .old-price {
+    display: inline-block;
+}
+
 /* FOOTER */
+
+footer {
+    height: 5em;
+    background-color:#1A1A1A ;
+    padding-top: 20px;
+}
+
+.container-footer {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer section {
+    color: white;
+}
+
+.privacy a {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+
+.other-site {
+    width: 100px;
+    display: inline-block;
+}
+.other-site h6 {
+    text-align: center;
+
+}
+
+
+.other-site a {
+    padding: 3px;
+    
+}
+
+.site {
+    display: flex;
+    justify-content: space-between;
+}
