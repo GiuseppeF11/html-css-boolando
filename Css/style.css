@@ -1,8 +1,67 @@
 /* RESET */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* GENERAL */
 
+.text-white {
+    background-color: white;
+}
+
+.text-black {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-white {
+    color: white;
+}
+
+.link-logo{
+    height: 30px;
+    position: relative;
+    right: 0;
+    left: 0;
+}
 /* HEADER */
+
+header .container {
+    width: 100%;
+    height: 3.5em;
+    background-color: #FF6900;
+}
+
+.container-commands-header {
+    width: 80%;
+    height: 3.5em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container section {
+    display: flex;
+    width: 100px;
+}
+
+.age nav {
+    margin: 0 1em;
+    padding: 10px;
+}
+
+.fast-buttons nav {
+    padding: 3px;
+    margin: 3px;
+}
+
 
 /* MAIN */
 
